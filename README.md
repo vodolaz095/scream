@@ -1,6 +1,8 @@
 Scream
 ======================
 
+[![Build Status](https://travis-ci.org/vodolaz095/scream.svg)](https://travis-ci.org/vodolaz095/scream)
+
 Application for recieving notifications by POST requests via `curl` and
 displaying them via `notification-daemon` service in modern `linux` distros
 
