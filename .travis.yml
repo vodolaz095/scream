@@ -1,0 +1,16 @@
+language: go
+
+go:
+  - 1.5
+  - tip
+
+before_install:
+  - apt-get install -y libnotify1 notification-daemon dbus
+
+script: go test
+
+os:
+  - linux
+
+notifications:
+  email: false

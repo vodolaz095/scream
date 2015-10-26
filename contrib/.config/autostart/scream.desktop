@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Scream server for Notification Daemon
+Exec=/usr/bin/scream
+Terminal=false
+Type=Application
+OnlyShowIn=GNOME-Flashback;LXDE;
+NoDisplay=true

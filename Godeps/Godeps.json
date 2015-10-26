@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/vodolaz095/scream",
+	"GoVersion": "go1.5.1",
+	"Deps": []
+}
