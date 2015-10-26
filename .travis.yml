@@ -7,7 +7,7 @@ go:
   - tip
 
 before_install:
-  - sudo apt-get install -y notification-daemon dbus notify-send
+  - sudo apt-get install -y notification-daemon dbus libnotify
 
 script: go test
 
