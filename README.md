@@ -3,7 +3,7 @@ Scream
 
 [![Build Status](https://travis-ci.org/vodolaz095/scream.svg)](https://travis-ci.org/vodolaz095/scream)
 
-Application for recieving notifications by POST requests via `curl` and
+Application for receiving notifications by POST requests via `curl` and
 displaying them via `notification-daemon` service in modern `linux` distros
 
 Requirements
@@ -22,7 +22,7 @@ It can be done via your favourite package manager, like `dnf`
 Usage
 ======================
 
-Firstly, you need to start application on you desctop PC.
+Firstly, you need to start application on you desktop PC.
 
 ```shell
 
@@ -39,10 +39,10 @@ Also you need to open port for this application
 ```
 
 On `Fedora 22` with `LXDE` environment, you can autostart your application
-by using the startup scripts to start `noficiation-daemon` and `scream` as the ones
+by using the startup scripts to start `notification-daemon` and `scream` as the ones
 in `contrib/.config/autostart/`. You need to save them to `~/.config/autostart`.
 
-Then, you can send notifcations to your desctop from remote\local machine using this, or analogous CURL commands
+Then, you can send notifications to your desktop from remote\local machine using this, or analogous CURL commands
 
 ```shell
 
