@@ -18,6 +18,18 @@ It can be done via your favourite package manager, like `dnf`
 
 ```
 
+I have created this package on recent versions of Fedora/Centos Linux distributions,
+so i wrote path to `notify-send` and unit tests in assumption you have this, or similiar distros.
+So, i assume the `/usr/bin/notify-send` is in place, the daemon of `/usr/libexec/notification-daemon` 
+is running, and executing in console
+
+```shell
+
+	$ notify-send test
+
+```
+
+draws you a fancy notification with text `test`.
 
 Usage
 ======================

@@ -41,7 +41,7 @@ func handeRequest(rw http.ResponseWriter, req *http.Request) {
 	err := req.ParseForm()
 	if err != nil {
 
-		http.Error(rw, fmt.Sprintf("Unable to parse request! It have to be JSON like this %v", fmt.Sprintf("$ curl -X POST -d type=Notification -d message=Hello! -d key=%v  http://localhost%v/", Cfg.Key, Cfg.Address)), 400)
+		http.Error(rw, fmt.Sprintf("Unable to parse request! It have to be request invoked like this %v", fmt.Sprintf("$ curl -X POST -d type=Notification -d message=Hello! -d key=%v  http://localhost%v/", Cfg.Key, Cfg.Address)), 400)
 		return
 	}
 
